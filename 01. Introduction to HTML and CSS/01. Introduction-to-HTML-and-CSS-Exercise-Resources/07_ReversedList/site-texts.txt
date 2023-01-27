@@ -2,4 +2,4 @@ Reversed List
 
 3. Head north on N Halsted St
 2. Turn Right on W Deversey Pkwy
-1. Turn Left on N Orchard St
+1. Turn Left on N Orchard St    
