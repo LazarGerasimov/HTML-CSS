@@ -1,0 +1,42 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 50px;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: lightgreen;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-right: 80px;
+}
+
+span {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 50px;
+    padding-left: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
