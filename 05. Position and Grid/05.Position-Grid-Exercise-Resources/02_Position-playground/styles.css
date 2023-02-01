@@ -4,3 +4,19 @@ body {
     margin: 0;
 }
 
+
+.viewport {
+    height: 50vh;
+}
+
+main:nth-child(1) {
+    background-color: pink;
+}
+
+img {
+    width: 200px;
+}
+
+.card {
+    display: block;
+}
