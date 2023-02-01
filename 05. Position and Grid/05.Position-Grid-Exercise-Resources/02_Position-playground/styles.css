@@ -7,16 +7,47 @@ body {
 
 .viewport {
     height: 50vh;
+    position: relative;
 }
 
-main:nth-child(1) {
-    background-color: pink;
+main div:nth-child(1) {
+    background-image: linear-gradient(to right, #185A9D, #42CCA1);
 }
 
-img {
-    width: 200px;
+main div:nth-child(2) {
+    background-image: linear-gradient(to right, #A83278, #D38212);
 }
 
-.card {
-    display: block;
+.viewport section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i {
+    color: white;
+    position: absolute;
+    right: 6px;
+    bottom: 12px;
+}
+
+main div:nth-child(1) section img {
+    width: 300px;
+}
+
+main div:nth-child(2) section img {
+    width: 270px;
+}
+
+main div:nth-child(1) section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 1) 0.05%,
+    rgba(0, 0, 0, 0));
 }
