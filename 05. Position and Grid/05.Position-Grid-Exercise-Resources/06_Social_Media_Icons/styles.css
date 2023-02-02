@@ -7,4 +7,46 @@ body {
 ul {
     list-style-type: none;
     display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    display: inline-block;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+i {
+    font-size: 35px;
+    color: #262626;
+}
+
+.fb:hover i {
+    color: #3B5998;
+}
+
+.tw:hover i {
+    color: #00ACED;
+}
+
+.google:hover i {
+    color: #DD4B39;
+}
+
+.link:hover i {
+    color: #007BB6;
+}
+
+.insta:hover i {
+    color: #93C6E0;
 }
