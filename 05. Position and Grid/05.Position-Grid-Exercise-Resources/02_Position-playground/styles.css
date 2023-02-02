@@ -32,6 +32,10 @@ i {
     bottom: 12px;
 }
 
+.card {
+    display: block;
+}
+
 main div:nth-child(1) section img {
     width: 300px;
 }
