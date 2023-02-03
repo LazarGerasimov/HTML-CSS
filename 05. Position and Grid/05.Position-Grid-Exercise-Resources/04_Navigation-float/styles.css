@@ -4,6 +4,7 @@
 
 body {
     background-color: rgb(238, 238, 238);
+    padding: 50px;
 }
 
 img {
@@ -23,9 +24,43 @@ blockquote {
 
 .site-title {
     display: inline-block;
+    font-size: 40px;
+    font-weight: 800;
+    position: absolute;
+    margin-top: 17px;
 }
 
 .header-nav {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
+
+.top-nav-ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 83%;
+}
+
+.top-nav-ul li {
+    display: inline-block;
+    margin: 10px
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 20%;
+    position: absolute;
+    margin-top: 20px;
+    right: -136px;
+    top: 131px;
+    margin-right: 50px;
+}
+
 
