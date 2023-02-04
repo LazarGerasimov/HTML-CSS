@@ -9,7 +9,7 @@ form {
     background-color: #F8F8F8;
 }
 
-span,
+legend,
 label,
 input,
 button {
@@ -30,6 +30,7 @@ button {
 .username-label {
     top: 100px;
     left: 40px;
+    font-weight: 700;
 }
 
 .username-input {
@@ -40,6 +41,7 @@ button {
 .password-label {
     top: 140px;
     left: 40px;
+    font-weight: 700;
 }
 
 .password-input {
@@ -47,7 +49,7 @@ button {
     left: 120px;
 }
 
-span {
+legend {
     border: 1px solid black;
     z-index: 1;
     width: 120px;
