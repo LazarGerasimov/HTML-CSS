@@ -61,3 +61,8 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+.flex-card {
+    padding: 12px;
+    flex-grow: 1;
+}
