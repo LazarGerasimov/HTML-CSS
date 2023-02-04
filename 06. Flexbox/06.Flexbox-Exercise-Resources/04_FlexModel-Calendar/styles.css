@@ -8,6 +8,58 @@ div {
     max-width: 65vw;
 }
 
+div, section {
+    display: flex;
+    align-items: stretch;
+    height: 500px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
+span {
+    border: 1px solid black;
+    padding: 10px 15px 25px 15px;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+.week {
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weekend {
+    flex-grow: 1;
+}
+
+.workweek, .weekend {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.six, .seven {
+    width: 50%;
+}
+
+.monday, .tuesday, .wednesday, .thursday, .friday {
+    width: 20%;
+}
+
+.reminders, .special-dates {
+    height: 50%;
+}
+
+.notes {
+    width: 30%;
+    text-align: center;
+}
+
+.six, .seven {
+    text-align: center;
+}
 
 
