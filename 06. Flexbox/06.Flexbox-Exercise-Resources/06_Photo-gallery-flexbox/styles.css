@@ -1,0 +1,19 @@
+body, ul, li {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 75vw;
+}
+
+li {
+    border: 5px solid black;
+}
+
+img {
+    object-fit: contain;
+}
+
