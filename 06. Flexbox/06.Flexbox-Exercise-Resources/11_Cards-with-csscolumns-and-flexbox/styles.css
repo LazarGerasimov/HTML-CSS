@@ -20,11 +20,13 @@ h2 {
     border: 1px solid gray;
     box-shadow: 1px 1px 7px 0px grey;
     border-radius: 12px;
+    margin: 10px;
 }
 
 img {
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
+    width: 100%;
 }
 
 .masonry-card {
@@ -40,6 +42,6 @@ img {
     display: inline-block;
 }
 
-.masonry .card {
+.masonry .masonry-cards {
     column-count: 3;
 }
