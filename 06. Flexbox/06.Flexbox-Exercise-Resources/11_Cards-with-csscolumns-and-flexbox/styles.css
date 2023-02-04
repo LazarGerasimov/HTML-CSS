@@ -19,3 +19,11 @@ img {
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
 }
+
+.masonry-card {
+    padding: 12px;
+}
+
+.card-footer {
+    padding: 12px;
+}
