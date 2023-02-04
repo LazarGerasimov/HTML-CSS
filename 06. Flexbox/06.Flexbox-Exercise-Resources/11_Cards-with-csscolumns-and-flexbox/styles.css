@@ -12,4 +12,10 @@ h2 {
     background-color: white;
     border: 1px solid gray;
     box-shadow: 1px 1px 7px 0px grey;
+    border-radius: 12px;
+}
+
+img {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
