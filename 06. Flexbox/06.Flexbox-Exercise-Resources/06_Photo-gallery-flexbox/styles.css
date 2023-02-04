@@ -10,10 +10,13 @@ ul {
 }
 
 li {
-    border: 5px solid black;
+    border: 8px solid black;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 img {
     object-fit: contain;
+    padding: 27px 20px;
 }
 
