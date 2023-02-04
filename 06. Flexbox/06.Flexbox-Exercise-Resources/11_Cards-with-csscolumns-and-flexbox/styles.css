@@ -5,13 +5,14 @@ body {
 }
 
 .cards-layout {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
+    margin-bottom: 40px;
 }
 
 .masonry-article {
@@ -33,4 +34,12 @@ img {
 .card-footer {
     padding: 12px;
     border-top: 1px solid gray;
+}
+
+.masonry .masonry-article {
+    display: inline-block;
+}
+
+.masonry .card {
+    column-count: 3;
 }
