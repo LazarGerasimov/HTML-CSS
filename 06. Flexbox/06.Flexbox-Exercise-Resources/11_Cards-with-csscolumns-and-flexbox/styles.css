@@ -8,3 +8,8 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.masonry-article {
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 7px 0px grey;
+}
