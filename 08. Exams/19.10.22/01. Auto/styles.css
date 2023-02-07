@@ -1,3 +1,17 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat|Poppins);
 
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.section .picture,
+.section .info {
+    width: 50%;
+
+}
