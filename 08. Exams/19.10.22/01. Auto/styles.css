@@ -18,6 +18,11 @@ h6 {
     color: black;
 }
 
+.section .info .title,
+.section .info .desc:last-of-type {
+    margin-bottom: 32px;
+}
+
 .section {
     display: flex;
     justify-content: center;
@@ -45,7 +50,7 @@ h6 {
 }
 
 .features .feature .feature-icon {
-    width: 100px;
+    width: 80px;
 }
 
 .features .feature .feature-container .feature-title,
