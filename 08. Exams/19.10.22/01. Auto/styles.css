@@ -7,7 +7,12 @@ body {
     font-family: "Poppins";
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Montserrat";
 }
 
@@ -33,4 +38,13 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.features .feature .feature-icon {
+    width: 100px;
+}
+
+.features .feature .feature-container .feature-title,
+.features .feature .feature-container .feature-description {
+    margin: 0px;
 }
