@@ -5,6 +5,7 @@
 
 body {
     font-family: "Poppins";
+    color: gray;
 }
 
 h1,
@@ -14,6 +15,7 @@ h4,
 h5,
 h6 {
     font-family: "Montserrat";
+    color: black;
 }
 
 .section {
