@@ -49,6 +49,10 @@ h6 {
     gap: 16px;
 }
 
+.features .feature:not(:last-child) {
+    margin-bottom: 16px;
+}
+
 .features .feature .feature-icon {
     width: 80px;
 }
