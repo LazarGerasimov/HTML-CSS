@@ -12,6 +12,12 @@
         margin-right: unset;
     }
 
+    .hero img {
+        display: none;
+    }
+
+    
+
 
 
     /* .hero img {
