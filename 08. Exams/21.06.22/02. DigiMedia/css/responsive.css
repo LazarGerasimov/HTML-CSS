@@ -31,6 +31,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 90px;
     }
 
     .hero-btns a:first-child {
@@ -47,8 +48,25 @@
         margin-bottom: 125px;
     }
 
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 
+    .col-sm-6 {
+        max-width: 100%;
+    }
 
+    /* About */
+
+    .about {
+        text-align: center;
+    }
+
+    .about .row {
+        gap: 50px;
+    }
 
 
     /* .hero img {
