@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;600;700&family=Raleway:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 
 *, ::after, ::before {
     box-sizing: border-box;
@@ -10,15 +11,30 @@ body {
 }
 
 main {
-    max-width: 90vw;
+    max-width: 1500px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
     align-items: center;
     justify-content: center;
+    margin: 20px auto;
 }
 
 section {
-    width: 100%;
     background-color: #EFEFEF;
+    position: relative;
+    padding: 150px 100px;
+    height: 450px;
+}
+
+.section-one-img {
+    width: 508px;
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+}
+
+.section-one-par {
+    width: 30%;
+    font-style: italic;
 }
