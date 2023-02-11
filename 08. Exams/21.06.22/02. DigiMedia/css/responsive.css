@@ -39,7 +39,13 @@
 
     /* About us */
 
-    
+    #about-us .service-txt {
+        text-align: center;
+    }
+
+    .hero-btns.service-btn{
+        margin-bottom: 125px;
+    }
 
 
 
