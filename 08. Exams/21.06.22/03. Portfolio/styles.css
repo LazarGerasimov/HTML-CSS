@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -24,17 +26,82 @@ section {
     background-color: #EFEFEF;
     position: relative;
     padding: 150px 100px;
-    height: 450px;
+    height: 500px;
+    width: 90%;
 }
+
+/* Section 1 */
 
 .section-one-img {
     width: 508px;
     position: absolute;
     bottom: 0px;
-    right: 300px;
+    right: 180px;
 }
 
 .section-one-par {
     width: 30%;
     font-style: italic;
+}
+
+/* Section 2 */
+
+.section-two {
+    position: relative;
+}
+
+.section-two-img {
+    width: 400px;
+    position: absolute;
+}
+
+.section-two-info {
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    margin-right: 54px;
+}
+
+.section-two-first-para,
+.section-two-second-para {
+    font-style: italic;
+}
+
+.section-two-ul {
+    list-style-type: none;
+    position: absolute;
+    left: -40px;
+}
+
+.section-two-ul>li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 32px;
+    padding: 5px;
+}
+
+.section-two-ul i {
+    color: #909090;
+
+}
+
+.section-two-img {
+    width: 415px;
+    top: 38px;
+}
+
+/* Section 3 */
+
+.section-three {
+    overflow: hidden;
+}
+
+.section-three-img {
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 1350px;
 }
