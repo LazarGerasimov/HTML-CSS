@@ -3,3 +3,9 @@
     --clr-gray-light: #F6F8F9;
     --clr-gray-dark: #353F4D;
 }
+
+#about {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
