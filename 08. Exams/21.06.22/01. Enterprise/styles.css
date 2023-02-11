@@ -1,7 +1,12 @@
 :root {
     --clr-primary: #786EFF;
+    --clr-gray: #717C84;
     --clr-gray-light: #F6F8F9;
     --clr-gray-dark: #353F4D;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
 }
 
 #about {
@@ -10,4 +15,25 @@
     margin: 32px auto;
     background-color: var(--clr-gray-light);
     border-radius: 8px;
+    padding: 48px;
+}
+
+#about .info {
+    color: var(--clr-gray-dark);
+}
+
+#about .info .info__subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#about .info .info__title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+#about .info .info__desc {
+    color: var(--clr-gray);
 }
