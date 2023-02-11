@@ -1,1 +1,46 @@
-/* TODO: Add responsive styles here... */
+@media screen and (max-width: 600px) {
+
+    /* Navigation */
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .navbar-brand {
+        margin-right: unset;
+    }
+
+
+
+    /* .hero img {
+        display: none;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        text-align: center;
+        width: auto;
+        margin-bottom: -160px;
+    }
+
+    .navbar-brand img {
+        width: 120px;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-btns a:first-child {
+        width: 70%;
+    } */
+}
