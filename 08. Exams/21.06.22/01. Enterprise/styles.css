@@ -12,15 +12,18 @@ body {
 
 #about {
     width: 95%;
-    max-width: 1200px;
+    max-width: 795px;
     margin: 32px auto;
     background-color: var(--clr-gray-light);
     border-radius: 8px;
     padding: 48px;
+    position: relative;
+
 }
 
 #about .info {
     color: var(--clr-gray-dark);
+    width: 42%;
 }
 
 #about .info .info__subtitle {
@@ -53,6 +56,14 @@ body {
     border: var(--clr-primary);
     background-color: var(--clr-primary);
     color: white;
+    margin-right: 10px;
 }
 
+/* IMAGE */
 
+#about .img {
+    position: absolute;
+    width: 30%;
+    bottom: 0px;
+    right: 48px;
+}
