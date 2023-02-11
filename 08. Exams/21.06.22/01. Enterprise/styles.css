@@ -3,6 +3,7 @@
     --clr-gray: #717C84;
     --clr-gray-light: #F6F8F9;
     --clr-gray-dark: #353F4D;
+    --clr-border: #555658;
 }
 
 body {
@@ -36,4 +37,12 @@ body {
 
 #about .info .info__desc {
     color: var(--clr-gray);
+    margin-bottom: 24px;
 }
+
+.btn {
+    border: 1px solid var(--clr-border);
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
