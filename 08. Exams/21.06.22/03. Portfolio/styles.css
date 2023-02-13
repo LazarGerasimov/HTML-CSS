@@ -38,19 +38,21 @@ section {
 
 .section-one-heading {
     color: #3D3D3D;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 50px;
 }
 
 .section-one-img {
-    width: 508px;
+    width: 700px;
     position: absolute;
     bottom: 0px;
     right: 180px;
 }
 
 .section-one-par {
-    width: 30%;
+    width: 42%;
     font-style: italic;
+    font-size: 25px;
 }
 
 /* Section 2 */
