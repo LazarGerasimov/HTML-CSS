@@ -60,6 +60,11 @@ section {
     position: relative;
 }
 
+.section-two-heading {
+    color: #3D3D3D;
+    font-weight: 400;
+}
+
 .section-two-img {
     width: 400px;
     position: absolute;
