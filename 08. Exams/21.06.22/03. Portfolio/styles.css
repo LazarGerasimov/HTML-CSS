@@ -41,16 +41,24 @@ section {
     margin-top: 61px;
 }
 
+.divider-horizontal {
+    background-color: #9F9F9F;
+    width:  60px;
+    height: 2px;
+    margin-top: 61px;
+}
+
 /* Section 1 */
 
 .section-one-heading {
     color: #3D3D3D;
     font-weight: 300;
     font-size: 50px;
+    margin-top: 95px;
 }
 
 .section-one-img {
-    width: 700px;
+    width: 729px;
     position: absolute;
     bottom: 0px;
     right: 180px;
