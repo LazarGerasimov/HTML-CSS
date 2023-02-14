@@ -163,3 +163,27 @@ section {
     transform: scale(1.5);
     z-index: 2;
 }
+
+/* Section 6 */
+
+/* .section-six {
+    text-align: center;
+} */
+
+.section-six-heading {
+    color: #3D3D3D;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.section-six-form-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-six-para {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
