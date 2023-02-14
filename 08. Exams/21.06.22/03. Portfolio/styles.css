@@ -170,10 +170,17 @@ section {
     text-align: center;
 } */
 
+.section-six {
+    padding-bottom: unset;
+    margin: 0 auto;
+    align-items: center;
+}
+
 .section-six-heading {
     color: #3D3D3D;
     font-weight: 400;
     font-size: 50px;
+    margin-top: -2px;
 }
 
 .section-six-form-wrapper {
@@ -185,5 +192,60 @@ section {
 .section-six-para {
     font-size: 20px;
     font-style: italic;
-    margin-bottom: 30px;
+    margin-bottom: 55px;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.email-subject-flex-wrapper {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email, .subject {
+    width: 48%;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.message {
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+.send-message {
+    width: 100%;
+    border: 1px solid black;
+    height: 55px;
+    background-color: black;
+    color: white;
+    margin-bottom: 78px;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Section six - grid example */
+
+/* 
+
+
+*/
