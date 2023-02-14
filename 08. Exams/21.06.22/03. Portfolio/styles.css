@@ -34,6 +34,13 @@ section {
     color: #222222;
 }
 
+.divider-vertical {
+    background-color: #9F9F9F;
+    width: 2px;
+    height: 60px;
+    margin-top: 61px;
+}
+
 /* Section 1 */
 
 .section-one-heading {
