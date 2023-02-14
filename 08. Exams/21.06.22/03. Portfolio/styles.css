@@ -43,9 +43,10 @@ section {
 
 .divider-horizontal {
     background-color: #9F9F9F;
-    width:  60px;
+    width:  65px;
     height: 2px;
-    margin-top: 61px;
+    display: inline-block;
+    margin-right: 38px;
 }
 
 /* Section 1 */
@@ -79,11 +80,20 @@ section {
 .section-two-heading {
     color: #3D3D3D;
     font-weight: 400;
+    font-size: 50px;
+    display: inline-block;
+}
+
+.heading-two-wrapper {
+    display: flex;
+    align-items: center;
+
 }
 
 .section-two-img {
-    width: 400px;
     position: absolute;
+    width: 550px;
+    top: 60px;
 }
 
 .section-two-info {
@@ -115,11 +125,6 @@ section {
 .section-two-ul i {
     color: #909090;
 
-}
-
-.section-two-img {
-    width: 415px;
-    top: 38px;
 }
 
 /* Section 3 */
