@@ -156,8 +156,10 @@ section {
 .section-five img {
     width: 30%;
     object-fit: contain;
+    z-index: 1;
 }
 
 .section-five .section-five-image-two {
     transform: scale(1.5);
+    z-index: 2;
 }
