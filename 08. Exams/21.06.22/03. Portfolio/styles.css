@@ -66,9 +66,9 @@ section {
 }
 
 .section-one-par {
-    width: 42%;
+    width: 34%;
     font-style: italic;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* Section 2 */
@@ -92,16 +92,17 @@ section {
 
 .section-two-img {
     position: absolute;
-    width: 550px;
+    width: 555px;
     top: 60px;
 }
 
 .section-two-info {
-    width: 40%;
+    width: 41%;
     position: absolute;
     right: 50px;
     top: 50px;
-    margin-right: 54px;
+    margin-right: 190px;
+    font-size: 20px;
 }
 
 .section-two-first-para,
