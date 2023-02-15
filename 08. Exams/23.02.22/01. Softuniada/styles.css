@@ -34,13 +34,25 @@ i {
 }
 
 .main {
-    width: 80vw;
+    width: 63vw;
     margin: 100px auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid gray;
+    gap: 1px;
 }
 
 section {
     height: 300px;
+    border: 1px solid lightgray;
+    box-shadow: 1px -1px 5px 0px lightgrey;
+    border-radius: 3px;
 }
+
+.section-two {
+    padding: 20px 20px;
+}
+
+.section-one-wrapper {
+    margin: 30px 20px;
+}
+
