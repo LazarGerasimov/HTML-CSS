@@ -114,8 +114,10 @@ header {
 
 .section-two {
     background-color: #FAF9F7;
-    height: 600px;
+    height: 700px;
     padding-left: 150px;
+    display: flex;
+    align-items: center;
 }
 
 .open-jobs {
@@ -123,18 +125,16 @@ header {
     font-size: 70px;
     font-weight: 500;
     width: 33%;
-    display: inline-block;
     margin-right: 150px;
-    margin-top: 180px;
+    margin-top: -30px;
 }
 
 .suggested-searches {
-    width: 40%;
-    display: inline-block;
+    width: 52%;
 }
 
 .suggested-para {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: gray;
 }
@@ -148,9 +148,9 @@ header {
 }
 
 .searches-ul > li {
-    font-size: 19px;
+    font-size: 25px;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 25px;
     color: #666664;
     background-color: #E6E5E4;
     padding: 13px 15px;
