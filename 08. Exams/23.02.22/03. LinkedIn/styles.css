@@ -110,3 +110,26 @@ header {
     right: 5px;
 }
 
+/* Section two */
+
+.section-two {
+    background-color: #FAF9F7;
+    height: 600px;
+    padding-left: 150px;
+    padding-top: 200px;
+}
+
+.open-jobs {
+    color: black;
+    font-size: 70px;
+    font-weight: 500;
+    width: 40%;
+    display: inline-block;
+}
+
+.suggested-searches {
+    width: 40%;
+    display: inline-block;
+
+}
+
