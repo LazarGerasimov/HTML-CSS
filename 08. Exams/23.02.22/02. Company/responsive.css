@@ -19,4 +19,13 @@
     .hero-head .goal {
         max-width: unset;
     }
+
+    .bordered .wrapper .content-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content.bordered > .wrapper {
+        margin-top: -90px;
+    }
 }
