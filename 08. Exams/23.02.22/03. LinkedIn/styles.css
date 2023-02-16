@@ -13,8 +13,9 @@ body {
 /* Header */
 
 header {
-    height: 800px;
+    height: 835px;
     padding-left: 150px;
+    position: relative;
 }
 
 .nav {
@@ -44,7 +45,7 @@ header {
     font-weight: 500;
 }
 
-.nav-ul > li {
+.nav-ul>li {
     display: inline;
 }
 
@@ -55,19 +56,57 @@ header {
 }
 
 .welcome-wrapper {
-    width: 44%;
+    width: 55%;
 }
 
 .welcome-heading {
     color: #0A66C2;
-    font-size: 60px;
+    font-size: 76px;
     font-weight: 500;
 }
 
 .form {
     display: flex;
     flex-direction: column;
+    width: 65%;
+    gap: 30px;
 }
 
+.email,
+.password {
+    padding: 25px 15px;
+    font-size: 20px;
+    color: gray;
+    border-radius: 5px;
+}
 
+.show-span {
+    position: absolute;
+    top: 514px;
+    left: 686px;
+    font-size: 29px;
+    color: gray;
+}
+
+.forgot-password {
+    margin-top: 0px;
+    color: gray;
+    font-size: 20px;
+}
+
+.sign-in-button {
+    margin-top: -5px;
+    color: white;
+    background-color: #0A66C2;
+    border-radius: 34px;
+    padding: 28px;
+    font-size: 20px;
+}
+
+.header-picture {
+    width: 45%;
+    position: absolute;
+    top: 155px;
+    right: 5px;
+}
 
