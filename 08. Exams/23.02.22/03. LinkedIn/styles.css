@@ -54,5 +54,20 @@ header {
     color: #0A66C2;
 }
 
+.welcome-wrapper {
+    width: 44%;
+}
+
+.welcome-heading {
+    color: #0A66C2;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
