@@ -28,4 +28,44 @@
     .content.bordered > .wrapper {
         margin-top: -90px;
     }
+
+    .button.js-modal-open {
+        width: 90%;
+    }
+
+    .content-wrap.two-col .col{
+        margin-right: unset;
+    }
+
+    .content-wrap.two-col {
+        padding: 10px 10px;
+    }
+
+    .main-foot .wrapper {
+        flex-direction: column;
+    }
+
+    .bottom-wrap {
+        text-align: center;
+    }
+
+    .main-foot .bottom .copyright {
+        float: unset;
+    }
+
+    .main-foot .wrapper {
+        align-items: center;
+    }
+
+    .main-foot address {
+        margin-bottom: 15px;
+    }
+
+    .main-foot nav {
+        margin-bottom: 15px;
+    }
+
+    .main-foot nav:last-child {
+        margin-bottom: 60px;
+    }
 }
