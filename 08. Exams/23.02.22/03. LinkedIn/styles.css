@@ -116,20 +116,43 @@ header {
     background-color: #FAF9F7;
     height: 600px;
     padding-left: 150px;
-    padding-top: 200px;
 }
 
 .open-jobs {
     color: black;
     font-size: 70px;
     font-weight: 500;
-    width: 40%;
+    width: 33%;
     display: inline-block;
+    margin-right: 150px;
+    margin-top: 180px;
 }
 
 .suggested-searches {
     width: 40%;
     display: inline-block;
+}
 
+.suggested-para {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.searches-ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    width: 84%;
+}
+
+.searches-ul > li {
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #666664;
+    background-color: #E6E5E4;
+    padding: 13px 15px;
 }
 
