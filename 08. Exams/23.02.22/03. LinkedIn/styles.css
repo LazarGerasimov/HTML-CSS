@@ -37,12 +37,14 @@ header {
     color: #0A66C2;
     padding: 19px 44px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .join-now {
     color: #7F8082;
     margin-right: 26px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .nav-ul>li {
@@ -53,6 +55,7 @@ header {
     font-size: 36px;
     font-weight: 700;
     color: #0A66C2;
+    cursor: pointer;
 }
 
 .welcome-wrapper {
@@ -86,12 +89,14 @@ header {
     left: 686px;
     font-size: 29px;
     color: gray;
+    cursor: pointer;
 }
 
 .forgot-password {
     margin-top: 0px;
     color: gray;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .sign-in-button {
@@ -101,6 +106,7 @@ header {
     border-radius: 34px;
     padding: 28px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .header-picture {
@@ -154,6 +160,7 @@ header {
     color: #666664;
     background-color: #E6E5E4;
     padding: 13px 15px;
+    cursor: pointer;
 }
 
 /* Section three */
@@ -184,5 +191,6 @@ header {
     position: absolute;
     top: 141px;
     left: 920px;
+    cursor: pointer;
 }
 
