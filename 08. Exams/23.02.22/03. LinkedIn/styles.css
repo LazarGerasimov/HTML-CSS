@@ -156,3 +156,33 @@ header {
     padding: 13px 15px;
 }
 
+/* Section three */
+
+.section-three {
+    background-color: #F1ECE5;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.post-your-job {
+    font-size: 65px;
+    font-weight: 500;
+    color: #B03C1C;
+    width: 38%;
+    display: inline-block;
+}
+
+.post-a-job-button {
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: #666664;
+    background-color: transparent;
+    padding: 13px 15px;
+    position: absolute;
+    top: 141px;
+    left: 920px;
+}
+
