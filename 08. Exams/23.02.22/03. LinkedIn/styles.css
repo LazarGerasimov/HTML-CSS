@@ -290,6 +290,48 @@ header {
 .section-six-heading {
     width: 80%;
     color: #0A66C2;
-    font-size: 76px;
+    font-size: 70px;
     font-weight: 400;
+}
+
+.get-started-btn {
+    font-size: 25px;
+    border-radius: 35px;
+    background-color: #0A66C2;
+    color: white;
+    padding: 20px 29px;
+    top: 141px;
+    left: 920px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    background-color: #FAF9F7;
+    height: 25vh;
+}
+
+.footer {
+    padding-left: 150px;
+    padding-top: 40px;
+}
+
+.logo-footer {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0A66C2;
+    cursor: pointer;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 300px;
+    align-items: baseline;
+}
+
+.footer-links-wrapper {
+    width: 70%;
+    display: flex;
+    gap: 40px;
 }
