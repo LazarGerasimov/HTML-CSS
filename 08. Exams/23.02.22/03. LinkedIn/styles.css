@@ -203,6 +203,7 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
+    background-color: #FAF9F7;
 }
 
 .let-people-know {
@@ -224,3 +225,6 @@ header {
 .section-four-img {
     width: 500px;
 }
+
+/* Section 5 */
+
