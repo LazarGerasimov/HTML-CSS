@@ -194,3 +194,33 @@ header {
     cursor: pointer;
 }
 
+/* Section 4 */
+
+.section-four {
+    padding-left: 150px;
+    padding-top: 320px;
+    padding-bottom: 320px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.let-people-know {
+    width: 50%;
+}
+
+.section-four-heading {
+    color: #0A66C2;
+    font-size: 65px;
+    font-weight: 500;
+    width: 85%;
+}
+
+.section-four-para {
+    color: #272626;
+    font-size: 51px;
+}
+
+.section-four-img {
+    width: 500px;
+}
