@@ -309,7 +309,7 @@ header {
 
 footer {
     background-color: #FAF9F7;
-    height: 25vh;
+    height: 20vh;
 }
 
 .footer {
@@ -333,5 +333,5 @@ footer {
 .footer-links-wrapper {
     width: 70%;
     display: flex;
-    gap: 40px;
+    gap: 140px;
 }
