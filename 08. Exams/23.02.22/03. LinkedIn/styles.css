@@ -273,3 +273,23 @@ header {
     left: 920px;
     cursor: pointer;
 }
+
+/* Section 6 */
+
+.section-six {
+    background-image: url('./images/background.svg');
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.section-six-heading {
+    width: 80%;
+    color: #0A66C2;
+    font-size: 76px;
+    font-weight: 400;
+}
