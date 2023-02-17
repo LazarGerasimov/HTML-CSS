@@ -228,3 +228,48 @@ header {
 
 /* Section 5 */
 
+.section-five {
+    padding-top: 210px;
+    padding-left: 150px;
+    padding-bottom: 210px;
+    background-color: #FFFFFF;
+
+}
+
+.section-five-articles-wrapper {
+    display: flex;
+}
+
+.section-five-article-one {
+    width: 38%;
+}
+
+.connect-img {
+    width: 400px;
+}
+
+.learn-img {
+    width: 400px;
+}
+
+.section-five-article-one-para-one {
+    font-size: 50px;
+    width: 70%;
+}
+
+.section-five-article-one-para-two {
+    font-size: 50px;
+    width: 70%;
+}
+
+.find-btn {
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 35px;
+    color: #666664;
+    background-color: transparent;
+    padding: 20px 29px;
+    top: 141px;
+    left: 920px;
+    cursor: pointer;
+}
