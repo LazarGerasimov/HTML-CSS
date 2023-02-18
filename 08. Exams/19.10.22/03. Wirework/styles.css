@@ -181,6 +181,37 @@ i {
 
 .section-four-heading {
     color: white;
-    border-bottom: 1px solid gray;
     padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.section-four-article {
+    width: 18%;
+    text-align: center;
+}
+
+.section-four-para {
+    color: gray;
+    line-height: 30px;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #4FAB88;
+    background-color: #1B9772;
+    margin-bottom: -30px;
+    font-size: 20px;
+}
+
+footer span {
+    color: #a9c7ba;
+}
+
+main {
+    margin-bottom: -20px;
 }
