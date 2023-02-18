@@ -40,15 +40,40 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .names-wrapper {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
     gap: 5px;
 }
 
+.first-name-wrapper, .last-name-wrapper {
+    width: 47%;
+}
+
 .names-wrapper p {
-    margin-left: -103px;
     margin-bottom: 11px;
 }
+
+.names-wrapper input {
+    border-radius: 20px;
+    border: 1px solid gray;
+    height: 33px;
+    width: 100%;
+}
+
+
+input {
+    height: 33px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
