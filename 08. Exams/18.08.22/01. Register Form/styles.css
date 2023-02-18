@@ -17,6 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Mulish, sans-serif;
 }
 
 .container {
@@ -28,7 +29,7 @@ body {
     height: 64%;
     border-radius: 20px;
     box-shadow: 19px 10px 12px 5px grey;
-    padding-left: 30px;
+    padding-left: 60px;
 }
 
 .heading {
