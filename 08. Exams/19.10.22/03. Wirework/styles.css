@@ -60,6 +60,7 @@ body {
 .header-nav-list-item {
     background-color: #ECECEC;
     padding: 25px 35px;
+    cursor: pointer;
 }
 
 .header-nav-list-item-link {
