@@ -84,19 +84,23 @@ p {
     font-size: 5px;
     height: 64px;
     position: absolute;
-    bottom: 109px;
+    bottom: 143px;
     left: 65px;
 }
 
 .terms {
     position: absolute;
-    bottom: 134px;
+    bottom: 169px;
     left: 90px;
 }
 
 .reg-btn {
     position: absolute;
-    bottom: 83px;
-    left: 251px;
+    bottom: 93px;
+    left: 174px;
+    background-color: #AE3C33;
+    color: white;
+    padding: 15px 36px;
+    border-radius: 20px;
 }
 
