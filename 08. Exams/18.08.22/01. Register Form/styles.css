@@ -26,10 +26,11 @@ body {
     background-repeat: no-repeat;
     object-fit: contain;
     width: 50%;
-    height: 64%;
+    height: 65%;
     border-radius: 20px;
     box-shadow: 19px 10px 12px 5px grey;
     padding-left: 60px;
+    position: relative;
 }
 
 .heading {
@@ -67,7 +68,7 @@ body {
 }
 
 
-input {
+.form-wrapper input {
     height: 33px;
     border-radius: 20px;
     border: 1px solid gray;
@@ -76,5 +77,26 @@ input {
 p {
     text-align: left;
     margin-bottom: 5px;
+}
+
+#checkbox {
+    width: 14px;
+    font-size: 5px;
+    height: 64px;
+    position: absolute;
+    bottom: 109px;
+    left: 65px;
+}
+
+.terms {
+    position: absolute;
+    bottom: 134px;
+    left: 90px;
+}
+
+.reg-btn {
+    position: absolute;
+    bottom: 83px;
+    left: 251px;
 }
 
