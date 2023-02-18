@@ -28,4 +28,27 @@ body {
     height: 64%;
     border-radius: 20px;
     box-shadow: 19px 10px 12px 5px grey;
+    padding-left: 30px;
+}
+
+.heading {
+    margin-left: -440px;
+    margin-top: 100px;
+}
+
+.form-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.names-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.names-wrapper p {
+    margin-left: -103px;
+    margin-bottom: 11px;
 }
