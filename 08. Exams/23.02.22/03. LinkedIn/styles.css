@@ -278,13 +278,14 @@ header {
 
 .section-six {
     background-image: url('./images/background.svg');
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     padding-left: 150px;
     padding-right: 150px;
+    padding-top: 87px;
 }
 
 .section-six-heading {
