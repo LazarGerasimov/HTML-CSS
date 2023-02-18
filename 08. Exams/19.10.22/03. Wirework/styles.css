@@ -138,3 +138,49 @@ i {
     color: gray;
     line-height: 30px;
 }
+
+/* Section 3 */
+
+.section-three {
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 105px;
+    text-align: center;
+}
+
+.section-three-heading {
+    color: #535353;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.section-three-para {
+    color: #535353;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.section-three-btn {
+    font-size: 25px;
+    color: white;
+    background-color: #1B9772;
+    padding: 24px 71px;
+}
+
+/* Section 4 */
+
+.section-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 105px;
+    gap: 50px;
+    background-color: #383838;
+}
+
+.section-four-heading {
+    color: white;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
