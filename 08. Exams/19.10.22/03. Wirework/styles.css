@@ -13,7 +13,29 @@ body {
     box-sizing: border-box;
 }
 
+/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 20px 70px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-site-title {
+    font-size: 36px;
+    padding-right: 25px;
+}
+
+.header-logo-site-title::after {
+    content: '';
+    width: 1px;
+    height: 38px;
+    background-color: gray;
+    position: absolute;
+    left: 290px;    
 }
