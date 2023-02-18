@@ -1,6 +1,7 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
-
-
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
 
 body {
     font-family: Helvetica, sans-serif;
@@ -105,3 +106,35 @@ body {
 
 /* Section 2 */
 
+i {
+    font-size: 80px;
+    color: white;
+    background-color: #E24E2A;
+    padding: 30px 30px;
+}
+
+.section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 105px;
+    gap: 50px;
+    background-color: #383838;
+}
+
+.section-two-article {
+    width: 18%;
+    text-align: center;
+}
+
+.section-two-heading {
+    color: white;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.section-two-para {
+    color: gray;
+    line-height: 30px;
+}
