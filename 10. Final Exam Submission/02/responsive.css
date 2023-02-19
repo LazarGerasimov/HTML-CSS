@@ -1,0 +1,127 @@
+@media screen and (max-width: 600px) {
+    
+    .home-navbar {
+        position: unset;
+        margin-top: -70px;
+        margin-bottom: 52px;
+    }
+
+    .home-container01 {
+        display: none;
+    }
+
+    .home-middle > .home-left {
+        display: none;
+    }
+
+    .home-middle > .home-right {
+        display: none;
+    }
+
+    .home-header.max-width-container {
+        padding-left: unset;
+        justify-content: left;
+    } 
+
+    .home-navbar {
+        justify-content: left;
+    }
+
+    .home-navbar1 {
+        justify-content: left;
+    }
+
+    .navbar-logo-title {
+        margin-left: 10px;
+    }
+
+    .home-hero.section-container {
+        padding-top: 22px;
+        flex-direction: column;
+    }
+
+    .home-hero1 {
+        flex-direction: column;
+    }
+
+    .home-container03 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-container.column {
+        margin-top: -52px;
+    }
+
+    .category-card-category-card {
+        width: 46%;
+        grid-gap: 23px;
+    }
+
+    .category-card-category-card img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .home-full-width-banner.section-container {
+        flex-direction: column;
+    }
+
+    .home-left4 {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .home-btn.button {
+        margin-top: -25px;
+    }
+
+    .home-image6 {
+        width: 100%;
+    }
+
+    .home-text30 {
+        width: unset;
+    }
+
+    .section-container {
+        margin-top: -46px;
+    }
+
+    .blog-post-card-blog-post-card.blog-post-card-root-class-name {
+        max-width: unset;
+    }
+
+    .blog-post-card-blog-post-card {
+        max-width: unset;
+    }
+
+    .blog-post-card-blog-post-card {
+        margin-bottom: -75px;
+    }
+
+    .blog-post-card-container {
+        margin-bottom: 87px;
+    }
+
+    .home-container08 {
+        margin-bottom: -55px;
+    }
+
+    .home-footer {
+        margin-top: -78px;
+    }
+
+    .home-footer1 {
+        flex-direction: column-reverse;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+    }
+
+    .home-container09 {
+        margin-top: 40px;
+    }
+}

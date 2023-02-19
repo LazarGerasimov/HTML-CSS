@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+
+
+/* Designed on 1920 x 1080 */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color: #E9D4AC;
+    width: 54vw;
+    height: 41vh;
+    gap: 15px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.column-one {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.column-two {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 20px;
+}
+
+img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 20px 7px grey;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 45px;
+}
+
+span {
+    font-weight: bold;
+    color: #66545E;
+    margin-left: 42px;
+}
+
+li {
+    font-weight: bold;
+    color: #66545E;
+}
+
+i {
+    color: #F6E0B5;
+    background-color: #66545E;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    background-color: #66545E;
+    width: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+}
+
+.column-one-para-one {
+    top: 134px;
+}
+
+.column-one-para-two {
+    top: 323px;
+}
+
+.column-two-para-one {
+    top: 218px;
+}
+
+.column-two-para-two {
+    top: 409px;
+}
+
+/* Designed on 1920 x 1080 */
